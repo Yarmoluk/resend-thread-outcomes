@@ -71,7 +71,7 @@ def test_bounce_correlates_by_email_id_and_by_message_id(graph):
 def test_bounce_report_by_domain(graph):
     r = bounce_report(graph)
     top = r["domains"][0]
-    assert top["domain"] == "bouncy.io"
+    assert top["domain"] == "bouncy.test"
     assert (top["sent"], top["bounced"], top["bounce_rate"]) == (2, 2, 1.0)
     assert top["reasons"] == {"Permanent/General": 1, "Permanent/Suppressed": 1}
     assert r["uncorrelated_outcomes"] == 1  # the receipt sent outside Inboxes

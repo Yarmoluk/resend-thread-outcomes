@@ -18,15 +18,15 @@
     "email": {
       "id": "m6-carol",
       "direction": "inbound",
-      "from": "Carol <carol@bigco.com>",
+      "from": "Carol <carol@bigco.example>",
       "to": [
-        "support@acme.dev"
+        "support@acme.example"
       ],
       "cc": [],
       "bcc": [],
       "reply_to": [],
       "subject": "Invoice for Q3 sponsorship",
-      "message_id": "<q3@bigco.com>",
+      "message_id": "<q3@bigco.example>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T12:00:00.000Z"

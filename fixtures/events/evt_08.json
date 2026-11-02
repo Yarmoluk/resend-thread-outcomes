@@ -18,15 +18,15 @@
     "email": {
       "id": "m5-reply",
       "direction": "outbound",
-      "from": "Ada from Support <support@acme.dev>",
+      "from": "Ada from Support <support@acme.example>",
       "to": [
-        "bob@bouncy.io"
+        "bob@bouncy.test"
       ],
       "cc": [],
       "bcc": [],
       "reply_to": [],
       "subject": "Re: Login problem",
-      "message_id": "<m5-reply@acme.dev>",
+      "message_id": "<m5-reply@acme.example>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T11:10:00.000Z"

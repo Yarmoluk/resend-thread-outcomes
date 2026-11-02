@@ -20,7 +20,7 @@
       "id": "d2-unsub",
       "type": "reply",
       "to": [
-        "dan@fastmail.com"
+        "dan@mailbox.example"
       ],
       "cc": [],
       "bcc": [],

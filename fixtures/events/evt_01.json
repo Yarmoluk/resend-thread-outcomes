@@ -20,7 +20,7 @@
       "direction": "inbound",
       "from": "Ada Lovelace <ada@example.org>",
       "to": [
-        "support@acme.dev"
+        "support@acme.example"
       ],
       "cc": [],
       "bcc": [],

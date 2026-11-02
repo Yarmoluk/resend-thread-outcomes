@@ -18,15 +18,15 @@
     "email": {
       "id": "m9b-frank",
       "direction": "inbound",
-      "from": "Frank <frank@bouncy.io>",
+      "from": "Frank <frank@bouncy.test>",
       "to": [
-        "support@acme.dev"
+        "support@acme.example"
       ],
       "cc": [],
       "bcc": [],
       "reply_to": [],
       "subject": "Password reset",
-      "message_id": "<pw@bouncy.io>",
+      "message_id": "<pw@bouncy.test>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T13:50:00.000Z"

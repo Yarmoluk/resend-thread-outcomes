@@ -5,8 +5,8 @@
   "data": {
     "created_at": "2026-10-30T14:59:00.000Z",
     "email_id": "tx-00000001",
-    "message_id": "<tx1@acme.dev>",
-    "from": "billing@acme.dev",
+    "message_id": "<tx1@acme.example>",
+    "from": "billing@acme.example",
     "to": [
       "someone@example.com"
     ],

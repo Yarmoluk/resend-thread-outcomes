@@ -5,10 +5,10 @@
   "data": {
     "created_at": "2026-10-30T09:05:00.000Z",
     "email_id": "m8-reply",
-    "message_id": "<m8-reply@acme.dev>",
-    "from": "Ada from Support <support@acme.dev>",
+    "message_id": "<m8-reply@acme.example>",
+    "from": "Ada from Support <support@acme.example>",
     "to": [
-      "dan@fastmail.com"
+      "dan@mailbox.example"
     ],
     "subject": "Re: Unsubscribe me"
   }

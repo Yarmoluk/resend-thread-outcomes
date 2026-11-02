@@ -18,15 +18,15 @@
     "email": {
       "id": "m10-reply",
       "direction": "outbound",
-      "from": "Ada from Support <support@acme.dev>",
+      "from": "Ada from Support <support@acme.example>",
       "to": [
-        "frank@bouncy.io"
+        "frank@bouncy.test"
       ],
       "cc": [],
       "bcc": [],
       "reply_to": [],
       "subject": "Re: Password reset",
-      "message_id": "<m10-reply@acme.dev>",
+      "message_id": "<m10-reply@acme.example>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T14:00:00.000Z"

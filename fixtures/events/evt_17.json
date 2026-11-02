@@ -18,15 +18,15 @@
     "email": {
       "id": "m8-reply",
       "direction": "outbound",
-      "from": "Ada from Support <support@acme.dev>",
+      "from": "Ada from Support <support@acme.example>",
       "to": [
-        "dan@fastmail.com"
+        "dan@mailbox.example"
       ],
       "cc": [],
       "bcc": [],
       "reply_to": [],
       "subject": "Re: Unsubscribe me",
-      "message_id": "<m8-reply@acme.dev>",
+      "message_id": "<m8-reply@acme.example>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T09:05:00.000Z"

@@ -5,8 +5,8 @@
   "data": {
     "created_at": "2026-10-30T10:20:01.000Z",
     "email_id": "m2-reply",
-    "message_id": "<m2-reply@acme.dev>",
-    "from": "Ada from Support <support@acme.dev>",
+    "message_id": "<m2-reply@acme.example>",
+    "from": "Ada from Support <support@acme.example>",
     "to": [
       "ada@example.org"
     ],

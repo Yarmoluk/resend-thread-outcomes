@@ -20,8 +20,8 @@
       ],
       "read": false
     },
-    "assignee_email": "grace@acme.dev",
-    "assigned_by_email": "ada@acme.dev",
+    "assignee_email": "grace@acme.example",
+    "assigned_by_email": "ada@acme.example",
     "previous_assignee_email": null
   }
 }

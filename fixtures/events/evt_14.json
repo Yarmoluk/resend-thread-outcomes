@@ -18,15 +18,15 @@
     "email": {
       "id": "m7-dan",
       "direction": "inbound",
-      "from": "Dan <dan@fastmail.com>",
+      "from": "Dan <dan@mailbox.example>",
       "to": [
-        "support@acme.dev"
+        "support@acme.example"
       ],
       "cc": [],
       "bcc": [],
       "reply_to": [],
       "subject": "Unsubscribe me",
-      "message_id": "<u1@fastmail.com>",
+      "message_id": "<u1@mailbox.example>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T09:00:00.000Z"

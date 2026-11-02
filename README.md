@@ -4,6 +4,10 @@ Resend Inboxes lets an agent send and receive mail. What happened to that mail
 (bounced, delivered, flagged as spam, answered, re-labeled by a person) lives in
 the dashboard and in webhook events, not in the thread the agent reads.
 
+**Status: prototype.** The demo and tests run on fixture events built from the
+payload shapes in Resend's docs. It has not yet been run against a live Resend
+account; the three assumptions that depend on one are listed at the bottom.
+
 This prototype closes the loop. It collects Resend's webhook events, correlates
 delivery outcomes back to the inbox thread they belong to, and serves the result
 to an agent as a small knowledge graph where every fact cites the exact event
@@ -20,7 +24,7 @@ $ thread-outcomes demo
 | deadbeef | Partnership question       | -             | -            | no               | -                                              |
 | feed0006 | Password reset             | 10m           | bounced      | no               | bounce Permanent/Suppressed                    |
 
-Bounces by recipient domain: bouncy.io 2/2 (Permanent/General ×1, Permanent/Suppressed ×1)
+Bounces by recipient domain: bouncy.test 2/2 (Permanent/General ×1, Permanent/Suppressed ×1)
 Agent labels a person changed: "Invoice for Q3 sponsorship": agent said Billing, dashboard replaced with Sales
 Agent drafts: sent 1, deleted 1
 Unanswered for 4h+: Partnership question

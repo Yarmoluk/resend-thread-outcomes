@@ -18,7 +18,7 @@
     "email": {
       "id": "m2-reply",
       "direction": "outbound",
-      "from": "Ada from Support <support@acme.dev>",
+      "from": "Ada from Support <support@acme.example>",
       "to": [
         "ada@example.org"
       ],
@@ -26,7 +26,7 @@
       "bcc": [],
       "reply_to": [],
       "subject": "Re: Refund for order 1041",
-      "message_id": "<m2-reply@acme.dev>",
+      "message_id": "<m2-reply@acme.example>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T10:20:01.000Z"

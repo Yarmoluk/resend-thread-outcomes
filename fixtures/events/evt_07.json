@@ -18,15 +18,15 @@
     "email": {
       "id": "m4-bob",
       "direction": "inbound",
-      "from": "Bob <bob@bouncy.io>",
+      "from": "Bob <bob@bouncy.test>",
       "to": [
-        "support@acme.dev"
+        "support@acme.example"
       ],
       "cc": [],
       "bcc": [],
       "reply_to": [],
       "subject": "Login problem",
-      "message_id": "<77@bouncy.io>",
+      "message_id": "<77@bouncy.test>",
       "attachments": [],
       "read": false,
       "received_at": "2026-10-30T11:00:00.000Z"
