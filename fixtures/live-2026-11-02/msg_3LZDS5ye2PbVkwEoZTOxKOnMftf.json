@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-11-02T20:51:32.287Z",
+  "data": {
+    "created_at": "2026-11-02T20:51:31.577Z",
+    "email_id": "01a19e08-1277-7663-86a2-835dd9234127",
+    "from": "Thread Outcomes Verify <verify@acme.example>",
+    "headers": [
+      {
+        "name": "In-Reply-To",
+        "value": "<010001a19e07e551-78e4123c-cf98-4614-9691-5a4b4fd12163-000000@email.amazonses.com>"
+      },
+      {
+        "name": "References",
+        "value": "<010001a19e07e551-78e4123c-cf98-4614-9691-5a4b4fd12163-000000@email.amazonses.com>"
+      }
+    ],
+    "message_id": "<010001a19e081381-c633c717-d1ad-4081-8de5-2da117bdf528-000000@email.amazonses.com>",
+    "subject": "Re: thread-outcomes live check: deliver",
+    "to": [
+      "delivered@resend.dev"
+    ]
+  },
+  "id": "msg_3LZDS5ye2PbVkwEoZTOxKOnMftf",
+  "type": "email.delivered"
+}

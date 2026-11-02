@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-11-02T20:51:22.169Z",
+  "data": {
+    "email": {
+      "attachments": [],
+      "bcc": [],
+      "cc": [],
+      "direction": "inbound",
+      "from": "Live Check <noreply@acme.example>",
+      "id": "e0d9ac3e-5c02-4522-8b12-3c8c9ddad328",
+      "message_id": "<010001a19e07e551-78e4123c-cf98-4614-9691-5a4b4fd12163-000000@email.amazonses.com>",
+      "read": false,
+      "received_at": "2026-11-02T20:51:21.908Z",
+      "reply_to": [
+        "delivered@resend.dev"
+      ],
+      "subject": "thread-outcomes live check: deliver",
+      "to": [
+        "03a98cea@forwarding.resend.app"
+      ]
+    },
+    "email_id": "e0d9ac3e-5c02-4522-8b12-3c8c9ddad328",
+    "inbox_id": "760f89dd-a6ae-486f-a927-dc2661acbb7b",
+    "source": "system",
+    "thread": {
+      "folder": "inbox",
+      "id": "7103c0c9-263a-44a9-9925-3bb3250656af",
+      "labels": [],
+      "object": "inbox_thread",
+      "read": false,
+      "subject": "thread-outcomes live check: deliver"
+    },
+    "thread_id": "7103c0c9-263a-44a9-9925-3bb3250656af"
+  },
+  "id": "msg_3LZDQoGlJRqkgzNbj3qy3zspIv1",
+  "type": "inbox.email.received"
+}

@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-11-02T20:51:32.224Z",
+  "data": {
+    "email": {
+      "attachments": [],
+      "bcc": [],
+      "cc": [],
+      "direction": "outbound",
+      "from": "Thread Outcomes Verify <verify@acme.example>",
+      "id": "01a19e08-1277-7663-86a2-835dd9234127",
+      "message_id": "<010001a19e081381-c633c717-d1ad-4081-8de5-2da117bdf528-000000@email.amazonses.com>",
+      "read": true,
+      "received_at": "2026-11-02T20:51:31.577Z",
+      "reply_to": [],
+      "subject": "Re: thread-outcomes live check: deliver",
+      "to": [
+        "delivered@resend.dev"
+      ]
+    },
+    "email_id": "01a19e08-1277-7663-86a2-835dd9234127",
+    "inbox_id": "760f89dd-a6ae-486f-a927-dc2661acbb7b",
+    "source": "system",
+    "thread": {
+      "folder": "inbox",
+      "id": "7103c0c9-263a-44a9-9925-3bb3250656af",
+      "labels": [],
+      "object": "inbox_thread",
+      "read": false,
+      "subject": "thread-outcomes live check: deliver"
+    },
+    "thread_id": "7103c0c9-263a-44a9-9925-3bb3250656af"
+  },
+  "id": "msg_3LZDS3EkW2AIFRJsEpgPELToHwF",
+  "type": "inbox.email.sent"
+}

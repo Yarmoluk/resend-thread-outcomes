@@ -141,3 +141,26 @@ def test_receiver_stores_raw_body_and_rejects_bad_signature(tmp_path):
     h = Fake({"Content-Length": str(len(raw))})
     h.do_POST()
     assert h.status == 400
+
+
+LIVE = Path(__file__).resolve().parent.parent / "fixtures" / "live-2026-11-02"
+
+
+def test_live_capture_joins_reply_id_to_bounce_and_delivery(tmp_path):
+    """19 events captured from a real Resend account on 2026-11-02 (addresses redacted).
+
+    Pins the three assumptions the README used to list: the id returned by
+    reply-to-thread is the email_id on email.* events, outbound inbox mail fires
+    email.* events, and inbox.email.sent carries that same email_id with thread_id.
+    """
+    store = EventStore(tmp_path / "events")
+    load_fixtures(store, LIVE)
+    g = build_graph(store)
+    rows = {s["subject"]: s for s in thread_summaries(g)}
+    bounce = rows["thread-outcomes live check: bounce"]
+    deliver = rows["thread-outcomes live check: deliver"]
+    assert bounce["last_outcome"] == "bounced"
+    assert deliver["last_outcome"] == "delivered"
+    assert bounce["bounce"]["type"] == "Permanent"
+    outcomes = [n for n in g.nodes.values() if n.type == "Outcome" and "matched_by" in n.props]
+    assert outcomes and all(n.props["matched_by"] == "email_id" for n in outcomes)

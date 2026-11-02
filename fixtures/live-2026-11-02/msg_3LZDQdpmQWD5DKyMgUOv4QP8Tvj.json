@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-11-02T20:51:20.595Z",
+  "data": {
+    "created_at": "2026-11-02T20:51:19.858Z",
+    "email_id": "01a19e07-e416-7435-8f40-f09f79fb901d",
+    "from": "Live Check <noreply@acme.example>",
+    "headers": [
+      {
+        "name": "Reply-To",
+        "value": "delivered@resend.dev"
+      }
+    ],
+    "message_id": "<010001a19e07e551-78e4123c-cf98-4614-9691-5a4b4fd12163-000000@email.amazonses.com>",
+    "subject": "thread-outcomes live check: deliver",
+    "tags": {
+      "scenario": "deliver"
+    },
+    "to": [
+      "03a98cea@forwarding.resend.app"
+    ]
+  },
+  "id": "msg_3LZDQdpmQWD5DKyMgUOv4QP8Tvj",
+  "type": "email.delivered"
+}

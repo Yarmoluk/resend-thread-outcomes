@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-11-02T20:51:32.759Z",
+  "data": {
+    "bounce": {
+      "diagnosticCode": [
+        "smtp; 550 5.1.1 As requested: user unknown <bounce@simulator.amazonses.com>"
+      ],
+      "message": "The recipient's email provider sent a hard bounce message, but didn't specify the reason for the hard bounce. We recommend removing the recipient's email address from your mailing list. Sending messages to addresses that produce hard bounces can have a negative impact on your reputation as a sender.",
+      "subType": "General",
+      "type": "Permanent"
+    },
+    "created_at": "2026-11-02T20:51:32.033Z",
+    "email_id": "01a19e08-143f-749c-bec9-6bf625453e64",
+    "from": "Thread Outcomes Verify <verify@acme.example>",
+    "headers": [
+      {
+        "name": "In-Reply-To",
+        "value": "<010001a19e07e4a7-9e409384-0861-4b05-83ae-9e1fb23cd977-000000@email.amazonses.com>"
+      },
+      {
+        "name": "References",
+        "value": "<010001a19e07e4a7-9e409384-0861-4b05-83ae-9e1fb23cd977-000000@email.amazonses.com>"
+      }
+    ],
+    "message_id": "<010001a19e081548-5b3eb186-7449-4550-9ce5-9c1ac54a76b3-000000@email.amazonses.com>",
+    "subject": "Re: thread-outcomes live check: bounce",
+    "to": [
+      "bounced@resend.dev"
+    ]
+  },
+  "id": "msg_3LZDSBzy9Vzb0H7iPDi4K9vEPVP",
+  "type": "email.bounced"
+}

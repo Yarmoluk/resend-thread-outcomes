@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-11-02T20:51:19.266Z",
+  "data": {
+    "inbox": {
+      "created_at": "2026-11-02T20:51:19.072Z",
+      "domain_id": "c5fc332e-8a90-415f-9b5c-d35ead8d5120",
+      "drafts": 0,
+      "email_address": "verify@acme.example",
+      "from_name": "Thread Outcomes Verify",
+      "id": "760f89dd-a6ae-486f-a927-dc2661acbb7b",
+      "last_received": null,
+      "name": "thread-outcomes-verify",
+      "object": "inbox",
+      "receiving_address": "03a98cea@forwarding.resend.app",
+      "unread": 0,
+      "updated_at": "2026-11-02T20:51:19.072Z"
+    },
+    "inbox_id": "760f89dd-a6ae-486f-a927-dc2661acbb7b",
+    "source": "api"
+  },
+  "id": "msg_3LZDQSwFh3psMQwQlvY33Q5j8f9",
+  "type": "inbox.created"
+}
