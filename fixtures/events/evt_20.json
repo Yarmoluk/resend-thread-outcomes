@@ -1,0 +1,35 @@
+{
+  "id": "evt_20",
+  "type": "inbox.thread.created",
+  "created_at": "2026-10-30T08:00:00.000Z",
+  "data": {
+    "source": "system",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "deadbeef-0000-4000-8000-000000000005",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "deadbeef-0000-4000-8000-000000000005",
+      "subject": "Partnership question",
+      "folder": "inbox",
+      "labels": [],
+      "read": false
+    },
+    "email_id": "m9-eve",
+    "email": {
+      "id": "m9-eve",
+      "direction": "inbound",
+      "from": "Eve <eve@example.org>",
+      "to": [
+        "support@acme.dev"
+      ],
+      "cc": [],
+      "bcc": [],
+      "reply_to": [],
+      "subject": "Partnership question",
+      "message_id": "<p1@example.org>",
+      "attachments": [],
+      "read": false,
+      "received_at": "2026-10-30T08:00:00.000Z"
+    }
+  }
+}

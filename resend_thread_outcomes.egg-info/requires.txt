@@ -1,0 +1,5 @@
+resend>=2.50
+mcp<2,>=1.12
+
+[dev]
+pytest>=8

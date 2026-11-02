@@ -1,0 +1,20 @@
+{
+  "id": "evt_19",
+  "type": "inbox.thread.folder.updated",
+  "created_at": "2026-10-30T09:50:00.000Z",
+  "data": {
+    "source": "dashboard",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "c0ffee12-3456-4789-abcd-ef0123456789",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "c0ffee12-3456-4789-abcd-ef0123456789",
+      "subject": "Unsubscribe me",
+      "folder": "spam",
+      "labels": [],
+      "read": true
+    },
+    "from": "inbox",
+    "to": "spam"
+  }
+}

@@ -1,0 +1,27 @@
+[project]
+name = "resend-thread-outcomes"
+version = "0.1.0"
+description = "Feed Resend Inboxes thread outcomes back to an agent as a provenance-tracked compact knowledge graph."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "resend>=2.50",
+    "mcp>=1.12,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+thread-outcomes = "thread_outcomes.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["thread_outcomes*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

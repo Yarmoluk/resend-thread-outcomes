@@ -1,0 +1,35 @@
+{
+  "id": "evt_10",
+  "type": "inbox.thread.created",
+  "created_at": "2026-10-30T12:00:00.000Z",
+  "data": {
+    "source": "system",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "9b2d4f6a-1c3e-4a5b-8d7f-0e1a2b3c4d5e",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "9b2d4f6a-1c3e-4a5b-8d7f-0e1a2b3c4d5e",
+      "subject": "Invoice for Q3 sponsorship",
+      "folder": "inbox",
+      "labels": [],
+      "read": false
+    },
+    "email_id": "m6-carol",
+    "email": {
+      "id": "m6-carol",
+      "direction": "inbound",
+      "from": "Carol <carol@bigco.com>",
+      "to": [
+        "support@acme.dev"
+      ],
+      "cc": [],
+      "bcc": [],
+      "reply_to": [],
+      "subject": "Invoice for Q3 sponsorship",
+      "message_id": "<q3@bigco.com>",
+      "attachments": [],
+      "read": false,
+      "received_at": "2026-10-30T12:00:00.000Z"
+    }
+  }
+}

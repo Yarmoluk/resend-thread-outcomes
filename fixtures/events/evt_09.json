@@ -1,0 +1,20 @@
+{
+  "id": "evt_09",
+  "type": "email.bounced",
+  "created_at": "2026-10-30T11:10:20.000Z",
+  "data": {
+    "created_at": "2026-10-30T11:10:00.000Z",
+    "email_id": "m5-reply",
+    "message_id": "<m5-reply@acme.dev>",
+    "from": "Ada from Support <support@acme.dev>",
+    "to": [
+      "bob@bouncy.io"
+    ],
+    "subject": "Re: Login problem",
+    "bounce": {
+      "message": "550 5.1.1 The email account that you tried to reach does not exist.",
+      "subType": "General",
+      "type": "Permanent"
+    }
+  }
+}

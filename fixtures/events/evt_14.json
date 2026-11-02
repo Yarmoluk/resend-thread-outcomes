@@ -1,0 +1,35 @@
+{
+  "id": "evt_14",
+  "type": "inbox.thread.created",
+  "created_at": "2026-10-30T09:00:00.000Z",
+  "data": {
+    "source": "system",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "c0ffee12-3456-4789-abcd-ef0123456789",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "c0ffee12-3456-4789-abcd-ef0123456789",
+      "subject": "Unsubscribe me",
+      "folder": "inbox",
+      "labels": [],
+      "read": false
+    },
+    "email_id": "m7-dan",
+    "email": {
+      "id": "m7-dan",
+      "direction": "inbound",
+      "from": "Dan <dan@fastmail.com>",
+      "to": [
+        "support@acme.dev"
+      ],
+      "cc": [],
+      "bcc": [],
+      "reply_to": [],
+      "subject": "Unsubscribe me",
+      "message_id": "<u1@fastmail.com>",
+      "attachments": [],
+      "read": false,
+      "received_at": "2026-10-30T09:00:00.000Z"
+    }
+  }
+}

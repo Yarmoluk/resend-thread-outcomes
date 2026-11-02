@@ -1,0 +1,15 @@
+{
+  "id": "evt_24",
+  "type": "email.delivered",
+  "created_at": "2026-10-30T15:00:00.000Z",
+  "data": {
+    "created_at": "2026-10-30T14:59:00.000Z",
+    "email_id": "tx-00000001",
+    "message_id": "<tx1@acme.dev>",
+    "from": "billing@acme.dev",
+    "to": [
+      "someone@example.com"
+    ],
+    "subject": "Your receipt"
+  }
+}

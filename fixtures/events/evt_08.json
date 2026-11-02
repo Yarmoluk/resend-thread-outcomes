@@ -1,0 +1,35 @@
+{
+  "id": "evt_08",
+  "type": "inbox.email.sent",
+  "created_at": "2026-10-30T11:10:00.000Z",
+  "data": {
+    "source": "system",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "7c1f0a2e-5d3b-4e8a-9f61-2b8d4c6e1a90",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "7c1f0a2e-5d3b-4e8a-9f61-2b8d4c6e1a90",
+      "subject": "Login problem",
+      "folder": "inbox",
+      "labels": [],
+      "read": false
+    },
+    "email_id": "m5-reply",
+    "email": {
+      "id": "m5-reply",
+      "direction": "outbound",
+      "from": "Ada from Support <support@acme.dev>",
+      "to": [
+        "bob@bouncy.io"
+      ],
+      "cc": [],
+      "bcc": [],
+      "reply_to": [],
+      "subject": "Re: Login problem",
+      "message_id": "<m5-reply@acme.dev>",
+      "attachments": [],
+      "read": false,
+      "received_at": "2026-10-30T11:10:00.000Z"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: resend-thread-outcomes
+Version: 0.1.0
+Summary: Feed Resend Inboxes thread outcomes back to an agent as a provenance-tracked compact knowledge graph.
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: resend>=2.50
+Requires-Dist: mcp<2,>=1.12
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

@@ -1,0 +1,38 @@
+{
+  "id": "evt_12",
+  "type": "inbox.thread.labels.updated",
+  "created_at": "2026-10-30T12:45:00.000Z",
+  "data": {
+    "source": "dashboard",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "9b2d4f6a-1c3e-4a5b-8d7f-0e1a2b3c4d5e",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "9b2d4f6a-1c3e-4a5b-8d7f-0e1a2b3c4d5e",
+      "subject": "Invoice for Q3 sponsorship",
+      "folder": "inbox",
+      "labels": [
+        {
+          "id": "lbl-sales",
+          "name": "Sales",
+          "color": "#46A758"
+        }
+      ],
+      "read": false
+    },
+    "added": [
+      {
+        "id": "lbl-sales",
+        "name": "Sales",
+        "color": "#F76B15"
+      }
+    ],
+    "removed": [
+      {
+        "id": "lbl-billing",
+        "name": "Billing",
+        "color": "#F76B15"
+      }
+    ]
+  }
+}

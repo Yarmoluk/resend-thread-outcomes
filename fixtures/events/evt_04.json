@@ -1,0 +1,35 @@
+{
+  "id": "evt_04",
+  "type": "inbox.email.sent",
+  "created_at": "2026-10-30T10:20:01.000Z",
+  "data": {
+    "source": "system",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "4d8e2a1c-9b3f-4c6d-8a21-3e5f7c9c0d12",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "4d8e2a1c-9b3f-4c6d-8a21-3e5f7c9c0d12",
+      "subject": "Refund for order 1041",
+      "folder": "inbox",
+      "labels": [],
+      "read": true
+    },
+    "email_id": "m2-reply",
+    "email": {
+      "id": "m2-reply",
+      "direction": "outbound",
+      "from": "Ada from Support <support@acme.dev>",
+      "to": [
+        "ada@example.org"
+      ],
+      "cc": [],
+      "bcc": [],
+      "reply_to": [],
+      "subject": "Re: Refund for order 1041",
+      "message_id": "<m2-reply@acme.dev>",
+      "attachments": [],
+      "read": false,
+      "received_at": "2026-10-30T10:20:01.000Z"
+    }
+  }
+}

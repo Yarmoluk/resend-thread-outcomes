@@ -1,0 +1,35 @@
+{
+  "id": "evt_22",
+  "type": "inbox.email.sent",
+  "created_at": "2026-10-30T14:00:00.000Z",
+  "data": {
+    "source": "system",
+    "inbox_id": "b3e2b2b6-3f0e-4c8e-9ad3-2f43a1e2c7f1",
+    "thread_id": "feed0006-0000-4000-8000-000000000006",
+    "thread": {
+      "object": "inbox_thread",
+      "id": "feed0006-0000-4000-8000-000000000006",
+      "subject": "Password reset",
+      "folder": "inbox",
+      "labels": [],
+      "read": false
+    },
+    "email_id": "m10-reply",
+    "email": {
+      "id": "m10-reply",
+      "direction": "outbound",
+      "from": "Ada from Support <support@acme.dev>",
+      "to": [
+        "frank@bouncy.io"
+      ],
+      "cc": [],
+      "bcc": [],
+      "reply_to": [],
+      "subject": "Re: Password reset",
+      "message_id": "<m10-reply@acme.dev>",
+      "attachments": [],
+      "read": false,
+      "received_at": "2026-10-30T14:00:00.000Z"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "evt_05",
+  "type": "email.delivered",
+  "created_at": "2026-10-30T10:20:31.000Z",
+  "data": {
+    "created_at": "2026-10-30T10:20:01.000Z",
+    "email_id": "m2-reply",
+    "message_id": "<m2-reply@acme.dev>",
+    "from": "Ada from Support <support@acme.dev>",
+    "to": [
+      "ada@example.org"
+    ],
+    "subject": "Re: Refund for order 1041"
+  }
+}
